@@ -2,7 +2,7 @@
 a student registration system where students can register their details,  such as name, class, address, and contact number. Additionally, it provides  functionalities for editing and deleting records.
 
 #link for repo
-
+https://github.com/hdn-2025/School-Registration-system
 # Student Registration System
 
 ## Overview
