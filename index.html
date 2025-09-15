@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Silver Gold Public School | Student Registration</title>
+  <meta name="description" content="Register and manage student details across devices using cloud sync." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎓 Silver Gold Public School</h1>
+    <p>Registration is open. Submitting false information may result in disqualification for the term.</p>
+    <h2>📝 Student Registration</h2>
+  </header>
+
+  <main>
+    <section id="form-section">
+      <div class="form-box">
+        <form id="studentForm" autocomplete="off">
+          <input type="text" id="name"      placeholder="Full Name"      required />
+          <input type="text" id="studentId" placeholder="Student ID"      required />
+          <input type="email" id="email"    placeholder="Email Address"   required />
+          <input type="tel" id="contact"    placeholder="Contact Number"  required />
+          <button type="submit">Register Student</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="display-section">
+      <h2>📋 Registered Students</h2>
+      <div id="studentList" class="student-list"></div>
+    </section>
+  </main>
+
+  <!-- Added defer so script runs after parsing on all devices -->
+  <script src="script.js" defer></script>
+</body>
+</html>

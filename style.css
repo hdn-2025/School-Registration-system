@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f4f8;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, button {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#display-section {
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.student-record {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-left: 5px solid #007bff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.student-record p {
+  margin: 5px 0;
+}
+
+.student-record button {
+  margin-right: 10px;
+  background-color: #28a745;
+}
+
+.student-record button:last-child {
+  background-color: #dc3545;
+}
+
+.student-record button:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 640px) {
+  form, #display-section {
+    width: 90%;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  form, #display-section {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1025px) {
+  form, #display-section {
+    width: 60%;
+  }
+}
