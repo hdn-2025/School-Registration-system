@@ -17,10 +17,11 @@ functionalities for editing and deleting records.
 - CSS
 - JavaScript
 ## link
-https://hdn-2025.github.io/School-Registration-system/
+https://hdn-2025.github.io/School-Registration-system/](https://github.com/hdn-2025/School-Registration-system)
 ## Setup
 Just open `index.html` in your browser. No server required.
 
 ## Author
 
 HET
+
